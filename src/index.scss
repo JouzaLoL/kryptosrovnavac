@@ -1,0 +1,45 @@
+@import "reset.scss";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i|Ubuntu');
+$primary-color: #F5BC00;
+$secondary-color: #3D3D3D;
+$header-height: 40px;
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.header {
+    position: relative;
+    height: $header-height;
+    padding: 10px;
+    background: $secondary-color;
+    div.header-logo {
+        display: inline-block;
+        img {
+            display: inline;
+            max-width: $header-height;
+        }
+    }
+    div.header-text {
+        position: absolute;
+        padding-left: 10px;
+        display: inline-block;
+        span.logo-text {
+            line-height: $header-height;
+            letter-spacing: 2px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+}
+
+.main {
+    background: cornsilk;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+}
