@@ -11,6 +11,8 @@ body {
     position: relative;
     height: $header-height;
     padding: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
     background: $secondary-color;
     div.header-logo {
         display: inline-block;
@@ -35,11 +37,18 @@ body {
 }
 
 .main {
-    background: cornsilk;
+    background: whitesmoke;
 }
 
 .content {
     width: 80%;
+    height: 1000px;
     margin: 0 auto;
     background: white;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: $secondary-color;
 }

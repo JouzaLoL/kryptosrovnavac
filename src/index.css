@@ -56,6 +56,8 @@ body {
   position: relative;
   height: 40px;
   padding: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
   background: #3D3D3D;
 }
 .header div.header-logo {
@@ -80,13 +82,20 @@ body {
 }
 
 .main {
-  background: cornsilk;
+  background: whitesmoke;
 }
 
 .content {
   width: 80%;
+  height: 1000px;
   margin: 0 auto;
   background: white;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #3D3D3D;
 }
 
 /*# sourceMappingURL=index.css.map */
