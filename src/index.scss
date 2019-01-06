@@ -11,8 +11,8 @@ body {
     position: relative;
     height: $header-height;
     padding: 10px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     background: $secondary-color;
     div.header-logo {
         display: inline-block;
@@ -32,6 +32,17 @@ body {
             font-size: 30px;
             font-weight: bold;
             color: white;
+        }
+    }
+    div.header-nav {
+        float: right;
+        line-height: $header-height;
+        padding-right: 10px;
+        a {
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+            
         }
     }
 }

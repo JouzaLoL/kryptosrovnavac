@@ -56,8 +56,8 @@ body {
   position: relative;
   height: 40px;
   padding: 10px;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   background: #3D3D3D;
 }
 .header div.header-logo {
@@ -79,6 +79,16 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: white;
+}
+.header div.header-nav {
+  float: right;
+  line-height: 40px;
+  padding-right: 10px;
+}
+.header div.header-nav a {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
 }
 
 .main {
