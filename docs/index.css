@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i|Ubuntu");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.header {
+  position: relative;
+  height: 40px;
+  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #3D3D3D;
+}
+.header div.header-logo {
+  display: inline-block;
+}
+.header div.header-logo img {
+  display: inline;
+  max-width: 40px;
+}
+.header div.header-text {
+  position: absolute;
+  padding-left: 10px;
+  display: inline-block;
+}
+.header div.header-text span.logo-text {
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.header div.header-nav {
+  float: right;
+  line-height: 40px;
+  padding-right: 10px;
+}
+.header div.header-nav a {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.main {
+  background: whitesmoke;
+}
+
+.content {
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+  background: white;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #3D3D3D;
+}
+
+/*# sourceMappingURL=index.css.map */

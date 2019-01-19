@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently \"sass --watch src:src\" \"live-server src\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src --repo https://github.com/JouzaLoL/kryptosrovnavac.git"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +16,5 @@
     "gh-pages": "^2.0.1",
     "live-server": "^1.2.1",
     "sass": "^1.15.2"
-  },
-  "dependencies": {
-    "gh-pages-deploy": "^0.5.1"
   }
 }
