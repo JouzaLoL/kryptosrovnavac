@@ -13,8 +13,19 @@ function extractTableAndStylesFromHTML(html) {
     return { table, styles };
 }
 
-async function main() {
-    getSheetHTML().then(extractTableAndStylesFromHTML).then(console.log);
+function addStyles(styles) {
+    var node = document.createElement('style');
+    document.body.appendChild(node);
+    node.innerHTML = styles;
 }
 
-main();
+async function main() {
+    getSheetHTML()
+        .then(extractTableAndStylesFromHTML)
+        .then((result) => {
+            addStyles(result.styles);
+            document.querySelector("#burzy").appendChild(result.table);
+        });
+}
+
+// main();
