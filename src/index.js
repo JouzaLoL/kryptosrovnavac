@@ -28,4 +28,14 @@ async function main() {
         });
 }
 
-// main();
+async function loadTable() {
+    let table = document.createElement("table");
+    fetch("./table.html")
+        .then(res => res.text())
+        .then((html) => {
+            table.innerHTML = html;
+            document.querySelector("div.content").appendChild(table);
+        });
+}
+
+// loadTable();

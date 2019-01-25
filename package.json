@@ -16,5 +16,6 @@
     "gh-pages": "^2.0.1",
     "live-server": "^1.2.1",
     "sass": "^1.15.2"
-  }
+  },
+  "dependencies": {}
 }
