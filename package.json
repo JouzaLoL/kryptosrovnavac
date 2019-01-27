@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "concurrently \"sass --watch src:src\" \"live-server src\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d src --repo https://github.com/JouzaLoL/kryptosrovnavac.git"
+    "deploy": "gh-pages -d src --repo https://github.com/JouzaLoL/kryptosrovnavac.git",
+    "build": "sass --watch src:src"
   },
   "keywords": [],
   "author": "",
