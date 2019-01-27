@@ -15,7 +15,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -58,7 +57,7 @@ body {
   padding: 10px;
   padding-left: 10%;
   padding-right: 10%;
-  background: #3D3D3D;
+  background: #2c3e50;
 }
 .header div.header-logo {
   display: inline-block;
@@ -92,20 +91,79 @@ body {
 }
 
 .main {
-  background: whitesmoke;
+  background: rgba(44, 62, 80, 0.212);
 }
 
 .content {
-  width: 80%;
-  height: 1000px;
+  width: 95%;
   margin: 0 auto;
   background: white;
+}
+
+.table-name {
+  font-size: 2rem;
+  padding: 15px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+table#burzy {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+table#burzy td:first-child {
+  padding-left: 40px;
+}
+table#burzy .table-header {
+  background: #2c3e50;
+  color: white;
+}
+table#burzy tr {
+  border-bottom: solid 1px #ebebeb;
+  color: white;
+}
+table#burzy th,
+table#burzy td {
+  padding: 15px;
+  font-size: 14px;
+}
+table#burzy a {
+  color: white;
+}
+table#burzy .quality-best {
+  background: #4caf50;
+}
+table#burzy .quality-good {
+  background: #9c27b0;
+}
+table#burzy .quality-mid {
+  background: #ffeb3b;
+  color: black;
+}
+table#burzy .quality-mid a {
+  color: black;
+}
+table#burzy .quality-lower {
+  background: #ff9800;
+  color: black;
+}
+table#burzy .quality-lower a {
+  color: black;
+}
+table#burzy .quality-lowest {
+  background: #c0392b;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  /* border-radius: 3px; */
 }
 
 .footer {
   width: 100%;
   height: 100px;
-  background: #3D3D3D;
+  background: #2c3e50;
 }
 
 /*# sourceMappingURL=index.css.map */

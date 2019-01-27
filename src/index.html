@@ -20,17 +20,18 @@
                 <span class="logo-text">Kryptosrovnávač</span>
             </div>
             <div class="header-nav">
-                <a href="#burzy">Burzy</a>
+                <a href="#content">Burzy</a>
             </div>
 
         </div>
 
-        <div class="content">
-            <table>
+        <div class="content card" id="content">
+            <h1 class="table-name">Přehled burz</h1>
+            <table id="burzy">
                 <tbody>
-                    <tr>
-                        <th>1</th>
-                        <td>Burzy</td>
+                    <tr class="table-header">
+
+                        <td>Název burzy</td>
                         <td>Kvalita burzy ✔</td>
                         <td>Fiat páry 💲</td>
                         <td>Počet trading párů</td>
@@ -43,8 +44,7 @@
                         <td colspan="3">Dodatečné poznámky ✎</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>2</th>
+                    <tr class="quality-best">
                         <td>
                             <a href="https://www.binance.com/?ref=10798198">Binance</a>
                         </td>
@@ -62,8 +62,8 @@
                         <td colspan="3">Má vlastní BNB tokeny(slevy,účast na ICOs...),aktuálně přesun na Maltu,staví</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>3</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.bitfinex.com">Bitfinex</a>
                         </td>
@@ -82,8 +82,8 @@
                             bezpečnost</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>4</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.huobipro.com/en-us/topic/invited/?invite_code=age23">Huobi</a>
                         </td>
@@ -102,8 +102,8 @@
                             Korei</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>5</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.okex.com">OKEx</a>
                         </td>
@@ -121,8 +121,8 @@
                         <td colspan="3">Největší čínská burza, all in one, hodně VELRYB</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>6</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.bithumb.com/">Bithumb</a>
                         </td>
@@ -138,8 +138,8 @@
                         <td colspan="3">Pouze KRW páry</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>7</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.bitstamp.net">Bitstamp</a>
                         </td>
@@ -157,8 +157,8 @@
                         <td colspan="3">dlouhý proces verifikace</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>8</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.gdax.com/">GDAX</a>
                         </td>
@@ -174,8 +174,8 @@
                         <td colspan="3">párová burza s CoinBase, menší poplatky</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>9</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://upbit.com/">Upbit</a>
                         </td>
@@ -191,8 +191,8 @@
                         <td colspan="3">největší korejská burza</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>10</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://bittrex.com">Bittrex</a>
                         </td>
@@ -208,8 +208,8 @@
                         <td colspan="3">Pomalý, zastaralý, v makingu je aktuálně nová verze bittrexu</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>11</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="http://coinbase.com">CoinBase</a>
                         </td>
@@ -227,8 +227,8 @@
                         <td colspan="3">Velmi vysoké poplatky, lepší převést funds na GDAX a poté koupit</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>12</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://coinmate.io/home">Coinmate</a>
                         </td>
@@ -244,8 +244,8 @@
                         <td colspan="3">Možnost obchodovat v CZK, -nemá ETH pár</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>13</th>
+                    <tr class="quality-best">
+
                         <td>
                             <a href="https://www.kraken.com/">Kraken</a>
                         </td>
@@ -263,8 +263,8 @@
                         <td colspan="3">Občasné výpadky, +jejich USDT je kryt reálnými dolary</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>14</th>
+                    <tr class="quality-good">
+
                         <td>
                             <a href="https://www.bitmex.com/register/8fC813">Bitmex</a>
                         </td>
@@ -280,8 +280,8 @@
                         <td colspan="3">Největší BTC volume, hodně VELRYB, až 100x páka</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>15</th>
+                    <tr class="quality-mid">
+
                         <td>
                             <a href="https://poloniex.com/">Poloniex</a>
                         </td>
@@ -297,8 +297,8 @@
                         <td colspan="3">odkoupen GoldenSachs za 400mil usd</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>16</th>
+                    <tr class="quality-mid">
+
                         <td>
                             <a href="https://wex.nz/">WEX</a>
                         </td>
@@ -314,8 +314,8 @@
                         <td colspan="3">Vysoké převodové poplatky, hodně využívaná Rusy</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>17</th>
+                    <tr class="quality-mid">
+
                         <td>
                             <a href="https://www.bibox.com/login/register?id=11095051&amp;lang=en">Bibox</a>
                         </td>
@@ -332,8 +332,8 @@
                             držitelům)</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>18</th>
+                    <tr class="quality-mid">
+
                         <td>
                             <a href="https://www.coinegg.com">CoinEgg</a>
                         </td>
@@ -349,8 +349,8 @@
                         <td colspan="3">menší čínská burza, občas se najde dobrý nadějný projekt z východu</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>19</th>
+                    <tr class="quality-mid">
+
                         <td>
                             <a href="https://www.kucoin.com/#/">Kucoin</a>
                         </td>
@@ -366,8 +366,8 @@
                         <td colspan="3">Má vlastní KCS tokeny(slevy+vyplácí část výdělků držitelům)</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>20</th>
+                    <tr class="quality-mid">
+
                         <td>
                             <a href="https://idex.market">IDEX</a>
                         </td>
@@ -383,8 +383,8 @@
                         <td colspan="3">Super na nákup post ICO projektů,Nutnost ETH peněženky</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>21</th>
+                    <tr class="quality-lower">
+
                         <td>
                             <a href="https://www.cryptopia.co.nz/Exchange">Cryptopia</a>
                         </td>
@@ -400,8 +400,8 @@
                         <td colspan="3">Super na nákup různých shitcoinů, + tržiště</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>22</th>
+                    <tr  class="quality-lower">
+
                         <td>
                             <a href="https://hitbtc.com">HitBTC</a>
                         </td>
@@ -417,8 +417,8 @@
                         <td colspan="3">Vysoké withdrawal poplatky, několik skandálů,nedoporučujeme zde obchodovat</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>23</th>
+                    <tr class="quality-lower">
+
                         <td>
                             <a href="https://cobinhood.com">CobinHood</a>
                         </td>
@@ -440,8 +440,8 @@
                             stát kvalitní burza, pukud se naplní všechny sliby</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>24</th>
+                    <tr class="quality-lower">
+
                         <td>
                             <a href="http://Gate.io">Gate.io</a>
                         </td>
@@ -460,8 +460,8 @@
                             opatrně!</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>25</th>
+                    <tr class="quality-lower">
+
                         <td>
                             <a href="https://www.coinexchange.io/">CoinExchange</a>
                         </td>
@@ -477,8 +477,8 @@
                         <td colspan="3">občas extrémně pomalá</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>26</th>
+                    <tr class="quality-lower">
+
                         <td>
                             <a href="https://liqui.io/">Liqui</a>
                         </td>
@@ -494,8 +494,8 @@
                         <td colspan="3">Liqui pár skandálů...</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>27</th>
+                    <tr class="quality-lower">
+
                         <td>
                             <a href="https://forkdelta.github.io/#!/trade/DAI-ETH">Forkdelta(Etherdelta)</a>
                         </td>
@@ -511,8 +511,8 @@
                         <td colspan="3">Nebezpečná manipulace s burzou pro nováčky, IDEX je lepší</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>28</th>
+                    <tr class="quality-lowest">
+
                         <td>
                             <a href="https://www.livecoin.net/">LiveCoin</a>
                         </td>
@@ -525,11 +525,11 @@
                         <td>Ruce pryč</td>
                         <td>UK</td>
                         <td>✖</td>
-                        <td colspan="3">Špatná pověst, mnoho lidí ji označuje na SCAM burzu</td>
+                        <td colspan="3">Špatná pověst, mnoho lidí ji označuje za SCAM burzu</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>29</th>
+                    <tr class="quality-lowest">
+
                         <td>
                             <a href="https://yobit.net/en/">YoBit</a>
                         </td>
@@ -545,8 +545,8 @@
                         <td colspan="3">Aktuálně vyšetřována Ruskou Policií</td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th>30</th>
+                    <tr class="quality-lowest">
+
                         <td>
                             <a href="https://bitgrail.com/login">Bitgrail</a>
                         </td>
