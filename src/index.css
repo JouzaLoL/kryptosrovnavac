@@ -56,7 +56,6 @@ body {
   position: relative;
   height: 40px;
   padding: 10px;
-  padding-left: 10%;
   padding-right: 10%;
   background: #2c3e50;
 }
@@ -108,6 +107,7 @@ body {
 }
 
 table#burzy {
+  height: 600px;
   display: block;
   overflow-x: auto;
   white-space: nowrap;
@@ -163,8 +163,17 @@ table#burzy .quality-lowest {
 
 .footer {
   width: 100%;
-  height: 100px;
+  height: 50px;
   background: #2c3e50;
+  color: white;
+  text-align: center;
+}
+.footer .copyright {
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */
