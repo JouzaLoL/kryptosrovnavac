@@ -107,7 +107,7 @@ body {
 }
 
 table#burzy {
-  height: 600px;
+  height: 630px;
   display: block;
   overflow-x: auto;
   white-space: nowrap;
