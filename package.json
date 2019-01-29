@@ -9,9 +9,13 @@
     "deploy": "gh-pages -d src --repo https://github.com/JouzaLoL/kryptosrovnavac.git",
     "build": "sass src:src"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cryptocurrency",
+    "crypto",
+    "bitcoin"
+  ],
+  "author": "Josef Vacek",
+  "license": "CC BY-NC-ND 4.0",
   "devDependencies": {
     "concurrently": "^4.1.0",
     "gh-pages": "^2.0.1",
