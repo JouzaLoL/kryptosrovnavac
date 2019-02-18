@@ -1,0 +1,182 @@
+/* https://mildrenben.github.io/surface/docs/colors.html */
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i|Ubuntu");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.header {
+  position: relative;
+  height: 40px;
+  padding: 10px;
+  padding-right: 10%;
+  background: #2c3e50;
+}
+.header div.header-logo {
+  display: inline-block;
+}
+.header div.header-logo img {
+  display: inline;
+  max-width: 40px;
+}
+.header div.header-text {
+  position: absolute;
+  padding-left: 10px;
+  display: inline-block;
+}
+.header div.header-text span.logo-text {
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.header div.header-nav {
+  float: right;
+  line-height: 40px;
+  padding-right: 10px;
+}
+.header div.header-nav a {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.main {
+  background: rgba(44, 62, 80, 0.212);
+}
+
+.content {
+  width: 95%;
+  margin: 0 auto;
+  background: white;
+}
+
+.table-name {
+  font-size: 2rem;
+  padding: 15px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+table#burzy {
+  height: 630px;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+table#burzy td:first-child {
+  padding-left: 40px;
+}
+table#burzy .table-header {
+  background: #2c3e50;
+  color: white;
+}
+table#burzy tr {
+  border-bottom: solid 1px #ebebeb;
+  color: white;
+}
+table#burzy th,
+table#burzy td {
+  padding: 15px;
+  font-size: 14px;
+}
+table#burzy a {
+  color: white;
+}
+table#burzy .quality-best {
+  background: #4caf50;
+}
+table#burzy .quality-good {
+  background: #9c27b0;
+}
+table#burzy .quality-mid {
+  background: #ffeb3b;
+  color: black;
+}
+table#burzy .quality-mid a {
+  color: black;
+}
+table#burzy .quality-lower {
+  background: #ff9800;
+  color: black;
+}
+table#burzy .quality-lower a {
+  color: black;
+}
+table#burzy .quality-lowest {
+  background: #c0392b;
+}
+table#burzy .coinbase {
+  background: #1652F0;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  /* border-radius: 3px; */
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+}
+.footer .copyright {
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=index.css.map */

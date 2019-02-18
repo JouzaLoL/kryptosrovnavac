@@ -1,0 +1,139 @@
+/* https://mildrenben.github.io/surface/docs/colors.html */
+
+@import "./reset.scss";
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i|Ubuntu");
+$primary-color: #FFC107;
+$secondary-color: #2c3e50;
+$shadow-color: rgba(44, 62, 80, 0.212);
+$header-height: 40px;
+body {
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
+.header {
+	position: relative;
+	height: $header-height;
+	padding: 10px;
+	padding-right: 10%;
+	background: $secondary-color;
+	div.header-logo {
+		display: inline-block;
+		img {
+			display: inline;
+			max-width: $header-height;
+		}
+	}
+	div.header-text {
+		position: absolute;
+		padding-left: 10px;
+		display: inline-block;
+		span.logo-text {
+			line-height: $header-height;
+			letter-spacing: 2px;
+			font-family: "Ubuntu", sans-serif;
+			font-size: 30px;
+			font-weight: bold;
+			color: white;
+		}
+	}
+	div.header-nav {
+		float: right;
+		line-height: $header-height;
+		padding-right: 10px;
+		a {
+			font-weight: bold;
+			color: white;
+			font-size: 20px;
+		}
+	}
+}
+
+.main {
+	background: $shadow-color;
+}
+
+.content {
+	width: 95%;
+	margin: 0 auto;
+	background: white;
+}
+
+.table-name {
+	font-size: 2rem;
+	padding: 15px;
+	border-bottom: solid 1px #ebebeb;
+}
+
+table#burzy {
+	height: 630px;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+	border-collapse: collapse;
+	td:first-child {
+		padding-left: 40px;
+	}
+
+	.table-header {
+		background: $secondary-color;
+		color: white;
+	}
+	tr {
+		border-bottom: solid 1px #ebebeb;
+		color: white;
+	}
+	th,
+	td {
+		padding: 15px;
+		font-size: 14px;
+	}
+	a {
+		color: white;
+	}
+	.quality-best {
+		background: #4caf50;
+	}
+	.quality-good {
+		background: #9c27b0;
+	}
+	.quality-mid {
+        background: #ffeb3b;
+        color: black;
+        a {
+            color: black;
+        }
+	}
+	.quality-lower {
+        background: #ff9800;
+        color: black;
+        a {
+            color: black;
+        }
+    }
+    .quality-lowest {
+        background: #c0392b;
+	}
+	.coinbase {
+		background: #1652F0;
+	}
+}
+
+.card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+	/* border-radius: 3px; */
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background: $secondary-color;
+	color: white;
+	text-align: center;
+	.copyright {
+		padding-top: 20px;
+	}
+}
+
+.hidden {
+	display: none;
+}
